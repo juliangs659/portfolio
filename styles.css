@@ -1,0 +1,33 @@
+
+/* Define estilos para el contenedor */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #106d37 ;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(223, 231, 204);
+}
+h1{
+    color: rgb(122, 180, 55);
+    font-weight:900;
+    
+}
+h2{
+    color: aqua;    
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-image: url(fotoPersonal.png);
+    background-size: cover;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
